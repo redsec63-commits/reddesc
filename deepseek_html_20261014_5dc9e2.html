@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>root@hacker:~$</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Matrix arka plan -->
+<canvas id="matrix"></canvas>
+
+<!-- Terminal penceresi -->
+<div class="terminal">
+  <div class="terminal-header">
+    <span class="dot red"></span>
+    <span class="dot yellow"></span>
+    <span class="dot green"></span>
+    <span class="title">root@hacker: ~</span>
+  </div>
+
+  <div class="terminal-body" id="terminalBody">
+    <p><span class="prompt">root@hacker</span>:<span class="path">~</span>$ whoami</p>
+    <p class="output">> misafir_1337</p>
+    <p><span class="prompt">root@hacker</span>:<span class="path">~</span>$ cat hakkinda.txt</p>
+    <p class="output">> Merhaba, ben bir kod yazıcısıyım. Sistemlere sızmam, sadece kod yazarım. 😎</p>
+    <p><span class="prompt">root@hacker</span>:<span class="path">~</span>$ ls projeler/</p>
+    <p class="output">> proje1.exe  proje2.py  gizli_dosya.txt</p>
+    <p><span class="prompt">root@hacker</span>:<span class="path">~</span>$ <span class="cursor">█</span></p>
+  </div>
+</div>
+
+<!-- YouTube Video Bölümü -->
+<section class="video-section">
+  <h2 class="section-title">> ./izle_video.sh</h2>
+  <div class="video-container">
+    <!-- BURAYA YOUTUBE VİDEO ID'Nİ YAZ (v= kısmındaki kod) -->
+    <iframe 
+      src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+      title="YouTube video"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+  <p class="video-caption">> Video yüklendi. İyi seyirler.</p>
+</section>
+
+<footer class="footer">
+  <p>© 2025 root@hacker | Tüm sistemler izleniyor...</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
